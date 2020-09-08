@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.header-bg {
+    border: 1px solid blue;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    max-height: 85px;
+    margin: 0px 0px 0px 45px;
+    justify-content: space-between
+}
+.logo {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    align-self: center;
+    border: 1px solid blue;
+    margin: 14px 0px 14px 0px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    color: blue;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 550px;
+}
+.lista ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px 0px 50px;
+}
+.lista li {
+    padding: 0px 17px 0px 17px;
+}
+.texto-bg {
+    border: 1px solid blue;
+    margin: 10px 0px 0px 0px;
+}
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1300px;
+    max-height: 110px;
+    margin: 0px 0px 0px 30px;
+}
+.noticias-bg {
+    border: 1px solid blue;
+    margin: 20px 0px 0px 0px;
+}
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 60px 0px;
+}
+.noticias h1 {
+    margin: 20px 0px 60px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards {
+    display: flex;
+    max-width: 1282px;
+}
+.cards div {
+    display: flex;
+    border: 1px solid blue;
+    padding: 150px;
+    margin: 0px 25px 0px 0px;
+}
+.contato-bg {
+    border: 1px solid blue;
+    margin: 15px 0px 0px 0px;
+}
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 280px 0px;
+}
+.contato h1 {
+    margin: 20px 0px 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-bg {
+    border: 1px solid blue;
+    margin: 15px 0px 15px 0px;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0px 0px 0px 30px;
+    padding: 20px 0px 20px 0px;
+}
+.h1-footer {
+    margin: 0px 450px 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 1024px)
+{
+    .noticias { max-width: 1024px; }
+    .noticias h1 { max-width: 975px; }
+    .cards { max-width: 994px; flex-wrap: wrap; }
+    .cards div { margin: 0px 0px 50px 129px; }
+    .h1-footer { margin: 0px 300px 0px 15px; }
+}
+@media (max-width: 768px)
+{
+    .lista { margin: 0px 0px 0px 0px; }
+    .menu { max-width: 605px; }
+    .cards div { margin: 0px 0px 50px 203px; }
+    .h1-footer { margin: 0px 170px 0px 15px; }
+}
+@media (max-width: 500px)
+{
+    .header { max-height: 170px; flex-direction: column; margin: 0px 0px 0px 0px; }
+    .logo { margin: 20px 0px 10px 0px; }
+    .menu { margin: 10px 0px 20px 0px; justify-content: space-around; }
+    .lista ul { padding: 0px 0px 0px 0px; }
+    .lista li { padding: 0px 0px 0px 17px; }
+    .noticias { padding: 0px 0px 0px 0px; }
+    .noticias h1 { max-width: 353px; }
+    .cards div { margin: 0px 0px 60px 68px; }
+    footer { flex-direction: column; align-items: center; margin: 0px 0px 0px 0px; }
+    .h1-footer { margin: 0px 0px 20px 45px; display: flex; align-self: flex-start; }
+}
